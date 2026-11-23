@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse upcoming music, technology, sports and workshop events with Eventive.">
+  <title>Explore Events | Eventive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Eventive home"><span class="brand-mark">e</span>eventive<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html" aria-current="page">Events</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro container">
+      <p class="eyebrow">GOOD THINGS ARE HAPPENING</p>
+      <h1>Explore Upcoming Events</h1>
+      <p>From big ideas to live music, find a reason to get out and about.</p>
+      <div class="event-tools">
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="visually-hidden">Search events by title</span><input type="search" id="event-search" placeholder="Search events..." autocomplete="off"></label>
+        <div class="filter-list" role="group" aria-label="Filter events by category">
+          <button class="filter-button is-active" type="button" data-category="All" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-category="Music" aria-pressed="false">Music</button>
+          <button class="filter-button" type="button" data-category="Technology" aria-pressed="false">Technology</button>
+          <button class="filter-button" type="button" data-category="Sports" aria-pressed="false">Sports</button>
+          <button class="filter-button" type="button" data-category="Workshops" aria-pressed="false">Workshops</button>
+        </div>
+      </div>
+    </section>
+    <section class="container event-list-section" aria-label="Upcoming events">
+      <div class="event-grid" data-events-grid aria-live="polite">
+        <p class="loading-message">Loading events…</p>
+      </div>
+      <p class="empty-message" data-empty-message hidden>No events match your search. Try another title or category.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">e</span>eventive<span class="brand-dot">.</span></a>
+      <p>Find your people. Make a day of it.</p>
+      <span>© 2026 Eventive</span>
+    </div>
+  </footer>
+</body>
+</html>

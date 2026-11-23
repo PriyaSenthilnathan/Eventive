@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Moonlight Sessions",
+    "category": "Music",
+    "date": "2026-12-12",
+    "location": "Riverside Park",
+    "description": "An open-air evening of feel-good music, local artists and picnic blankets.",
+    "emoji": "🎶"
+  },
+  {
+    "title": "Designing Tomorrow",
+    "category": "Technology",
+    "date": "2026-12-18",
+    "location": "The Foundry Hall",
+    "description": "Meet creative minds exploring how thoughtful design can shape what comes next.",
+    "emoji": "💡"
+  },
+  {
+    "title": "City Lights 5K",
+    "category": "Sports",
+    "date": "2027-01-09",
+    "location": "Central Square",
+    "description": "A relaxed community run with a lively route and a finish-line celebration.",
+    "emoji": "🏃"
+  },
+  {
+    "title": "Clay & Coffee",
+    "category": "Workshops",
+    "date": "2027-01-16",
+    "location": "Little Kiln Studio",
+    "description": "Get your hands messy and shape a one-of-a-kind cup in a beginner-friendly class.",
+    "emoji": "☕"
+  },
+  {
+    "title": "Indie Sound Garden",
+    "category": "Music",
+    "date": "2027-01-23",
+    "location": "Juniper Courtyard",
+    "description": "Discover three rising bands and your new favorite song in an intimate garden setting.",
+    "emoji": "🎸"
+  },
+  {
+    "title": "Future Makers Meetup",
+    "category": "Technology",
+    "date": "2027-02-04",
+    "location": "Northside Studio",
+    "description": "A welcoming evening for makers to share small projects, bright ideas and good company.",
+    "emoji": "🚀"
+  },
+  {
+    "title": "Sunday Streetball",
+    "category": "Sports",
+    "date": "2027-02-14",
+    "location": "Maplewood Courts",
+    "description": "Bring a team or join one for friendly games, fresh air and plenty of high-fives.",
+    "emoji": "🏀"
+  },
+  {
+    "title": "Make Your Own Zine",
+    "category": "Workshops",
+    "date": "2027-02-20",
+    "location": "Paper Moon Press",
+    "description": "Turn your favorite ideas into a tiny handmade magazine with help from local artists.",
+    "emoji": "✂️"
+  }
+]
